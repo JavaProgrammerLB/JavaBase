@@ -5,31 +5,31 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 /**
- * java ¶¨Ê±Æ÷ÀàµÄÑĞ¾¿
+ * java å®šæ—¶å™¨ç±»çš„ç ”ç©¶
  * @author liubei
  *
  */
 public class TimerTest {
 	public static void main(String[] args) {
 		Timer timer = new Timer();		
-		/*ĞÂ½¨TimeTask¶ÔÏó
-		 * Õâ¸ö¶ÔÏóµÄ¹¹Ôì·½·¨ÔõÃ´²»Ì«Ò»Ñù--»¹ÓĞÒ»¸örun()·½·¨
-		 * TimeTaskÊÇÒ»¸ö³éÏóÀà£¬ÊµÏÖRunnable½Ó¿Ú
+		/*æ–°å»ºTimeTaskå¯¹è±¡
+		 * è¿™ä¸ªå¯¹è±¡çš„æ„é€ æ–¹æ³•æ€ä¹ˆä¸å¤ªä¸€æ ·--è¿˜æœ‰ä¸€ä¸ªrun()æ–¹æ³•
+		 * TimeTaskæ˜¯ä¸€ä¸ªæŠ½è±¡ç±»ï¼Œå®ç°Runnableæ¥å£
 		 */
 		TimerTask task  = new TimerTask() {
 			@Override
 			public void run() {
-				System.out.println("Ö´ĞĞÊ±¼ä"+new Date());
-				System.out.println("ÏÖÔÚÊÇ2015Äê1ÔÂ29ÈÕ£¬23Ê±20·Ö");
+				System.out.println("æ‰§è¡Œæ—¶é—´"+new Date());
+				System.out.println("ç°åœ¨æ˜¯2015å¹´1æœˆ29æ—¥ï¼Œ23æ—¶20åˆ†");
 			}
 		};
 		
 		/*
-		 * ÈçºÎÊµÏÖÎå·ÖÖÓºóµÄ¹¦ÄÜ
+		 * å¦‚ä½•å®ç°ä¸€åˆ†é’Ÿåçš„åŠŸèƒ½
 		 * */
 		Date date = new Date();
 		Date time = new Date();
-		System.out.println("ÏÖÔÚÊ±¼ä"+new Date());
+		System.out.println("ç°åœ¨æ—¶é—´"+new Date());
 		timer.schedule(task,1*60*1000);
 	}
 
