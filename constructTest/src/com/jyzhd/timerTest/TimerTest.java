@@ -25,10 +25,10 @@ public class TimerTest {
 		};
 		
 		/*
-		 * 如何实现五分钟后的功能
+		 * --如何实现一分钟后的功能
 		 * */
-		Date date = new Date();
-		Date time = new Date();
+//		Date date = new Date();
+//		Date time = new Date();
 		System.out.println("现在时间"+new Date());
 		timer.schedule(task,1*60*1000);
 	}
