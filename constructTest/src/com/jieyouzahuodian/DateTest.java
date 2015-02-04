@@ -12,7 +12,7 @@ public class DateTest {
 	/**
 	 * 学习使用Date类
 	 * 学会表示比如2015年1月31日8:00时
-	 * 学会表示一天后
+	 * 学会表示一天后  
 	 * 日期格式化的方式
 	 * @param args
 	 */
@@ -30,7 +30,8 @@ public class DateTest {
 		calendar.setTime(d2);
 		calendar.add(calendar.DATE, 1);
 		d2 = calendar.getTime();
-		System.out.println(d2);
+//		System.out.println(d2);
+		System.out.println( d2);
 	}
 	//Sun Dec 28 08:00:00 CST 2014
 
