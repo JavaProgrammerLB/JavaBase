@@ -3,7 +3,8 @@ package cn.ihotel.base;
 public class javaHelloWorkd {
 
 	/**
-	 * 这是一个Hello World程序！
+	 * 涓�涓狧elloWorld绋嬪簭
+	 * 缁忛獙锛氭柊寤轰竴涓猈orkSpace涔嬪悗瑕佷慨鏀笹eneral-WorkSpace-淇敼缂栫爜涓簎tf-8
 	 * @param args
 	 */
 	public static void main(String[] args) {
