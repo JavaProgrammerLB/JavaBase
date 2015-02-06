@@ -8,6 +8,7 @@ public class javaHelloWorkd {
 	 */
 	public static void main(String[] args) {
 		System.out.print("Hello World!!yuanmengchen");
+		System.out.print("Hello eclipse");
 	}
 
 }
